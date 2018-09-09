@@ -15,10 +15,8 @@ var uppercase = "HELLO!"
 function sayHiToGrandma() {
   if (lowercase.toLowerCase() === lowercase ) {
     return ("I can\'t hear you!")
-  }
-}
-function sayHiToGrandma() {
-  if (uppercase.toUpperCase() === uppercase ) {
+  } else if (uppercase.toUpperCase () === uppercase) {
     console.log ("YES INDEED!")
   }
 }
+
